@@ -1,1 +1,3 @@
 # ETL
+In this challenge we used existing code, and added try-except blocks to it to handle possible errors in the extracted data. I created an automated ETL pilipine and exracted data from multiple sources(wikipedia, kaggle, and movielens). I then used Pandas and regular expressions to clean up the data and then loaded the cleaned up data into PostgreSQL. 
+I made the assumptions that the data came in JSON format,and CSV format. I also made the assumption that the data is relatively clean. Another assumption is that the data is accurate- I did not perform any checks or did any exploratory analysis on the data to confirm this hypothesis. 
